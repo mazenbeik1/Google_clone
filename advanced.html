@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="./css/advanced.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="navbarG">
+            <div class="links">
+                <a href="./index.html">Google Search</a>
+            </div>
+        </div>
+        <div class="container">
+            <!-- <div class="spinner">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div> -->
+            <div class="logoContainer"><i class="logo">GOOGLE</i></div>
+            <form action="https://www.google.com/search">
+                <div class="textInputContainer">
+                    <!-- <i class="fa fa-heart search-icon"></i> -->
+                    <h3 style="text-align: start;">Find pages with...</h3>
+
+                    <div class="advancedField">
+                        <p class="advancedId">all these words:</p>
+                        <input type="text" name="as_q" class="advancedInput">
+                    <!-- </div> -->
+
+                    <!-- <div class="advancedField"> -->
+                        <p class="advancedId">this exact word or phrase:</p>
+                        <input type="text" name="as_epq" class="advancedInput" >
+                    <!-- </div> -->
+
+                    <!-- <div class="advancedField"> -->
+                        <p class="advancedId">any of these words:</p>
+                        <input type="text" name="as_oq" class="advancedInput">
+                    <!-- </div> -->
+
+                    <!-- <div class="advancedField"> -->
+                        <p class="advancedId">none of these words:</p>
+                        <input type="text" name="as_eq" class="advancedInput">
+                    </div>
+                </div>
+                <input type="submit" value="Advanced Search" class="searchBtn btn btn-primary">
+            </form>
+        </div>
+    </body>
+</html>
